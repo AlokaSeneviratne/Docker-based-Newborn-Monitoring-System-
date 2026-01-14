@@ -9,6 +9,14 @@ This project is focused on creating Newborn Monitoring System in order to monito
 
 ## System Architecture
 
+This system consists of the following components and micro-services which have been visualized in the following slide.
+  → Edge sensor device  
+  → Backend API (FastAPI)  
+  → MySQL database  
+  → Frontend dashboard (Nginx + HTML/JS)  
+  → Kubernetes Deployments, Services, Routes  
+<img width="1878" height="382" alt="image" src="https://github.com/user-attachments/assets/7a23c7c7-a842-4503-a33a-bceef2b73301" />
+
 
 
 
