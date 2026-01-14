@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sds-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sds-frontend
+  template:
+    metadata:
+      labels:
+        app: sds-frontend
+    spec:
+      containers:
+      - name: sds-frontend
+        image: registry.gitlab.com/alokaseneviratne/sds-hw-and-project-aloka-seneviratne/sds-frontend:2.0
+        ports:
+          - containerPort: 8080

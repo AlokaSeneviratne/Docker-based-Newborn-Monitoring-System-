@@ -1,0 +1,12 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: sds-frontend-route
+spec:
+  to:
+    kind: Service
+    name: sds-frontend-service
+  port:
+    targetPort: 8080
+  tls:
+    termination: edge
