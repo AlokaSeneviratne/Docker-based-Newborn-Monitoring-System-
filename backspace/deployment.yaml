@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sds-final-project-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sds-final-project-backend
+  template:
+    metadata:
+      labels:
+        app: sds-final-project-backend
+    spec:
+      imagePullSecrets:
+        - name: gitlab-regcred
+      containers:
+        - name: backend
+          image: registry.gitlab.com/alokaseneviratne/sds-hw-and-project-aloka-seneviratne/sds-final-project-backend:2.0
+          ports:
+            - containerPort: 8000
+          env:
+            - name: DB_HOST
+              value: "mysql"
+            - name: DB_USER
+              value: "root"
+            - name: DB_PASSWORD
+              value: "password"
+            - name: DB_NAME
+              value: "sds_project"
