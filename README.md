@@ -19,9 +19,13 @@ This system consists of the following components and micro-services which have b
     
 <img width="480" height="360" alt="image" src="https://github.com/user-attachments/assets/1fd49f3f-1075-4a81-9d47-c3a28460225a" />
   
-  
+
+
+
+             
   
 <img width="480" height="360" alt="image" src="https://github.com/user-attachments/assets/54f5eb0c-aa71-4fbd-9b1f-670962cc11f8" />
+
 
 
 
