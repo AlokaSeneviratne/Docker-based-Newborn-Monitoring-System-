@@ -15,7 +15,9 @@ This system consists of the following components and micro-services which have b
   → MySQL database  
   → Frontend dashboard (Nginx + HTML/JS)  
   → Kubernetes Deployments, Services, Routes  
-<img width="1878" height="382" alt="image" src="https://github.com/user-attachments/assets/7a23c7c7-a842-4503-a33a-bceef2b73301" />
+<img width="740" height="574" alt="image" src="https://github.com/user-attachments/assets/1fd49f3f-1075-4a81-9d47-c3a28460225a" />
+
+
 
 
 
